@@ -57,3 +57,21 @@
   font-weight: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.loading-header {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

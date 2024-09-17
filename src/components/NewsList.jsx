@@ -38,10 +38,8 @@ export default function NewsList() {
                 text={item.text}
               />
             ))
-          ) : news.length === 0 ? (
-            <h1>No news found</h1>
           ) : (
-            <h1>Click Load Data</h1>
+            <p>No news found</p>
           )}
         </div>
       </>
